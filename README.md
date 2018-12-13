@@ -2,6 +2,6 @@
 
 a chat system written in python:
   - server handeling multiple clients
-  - AES shared key encryption (weak)
+  - AES shared key encryption (weak, not end-to-end)
   - SQL database (login/register)
   - user commands (-c)
