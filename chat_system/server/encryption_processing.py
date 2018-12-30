@@ -1,7 +1,7 @@
 from Crypto.Cipher import AES
 import hashlib
 
-key = b'@NcRfUjXn2r5u8x/'
+key = b'(key)'
 cipher = AES.new(key, AES.MODE_ECB)
 
 
