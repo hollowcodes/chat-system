@@ -1,0 +1,7 @@
+before running the server:
+
+go to sql_handler.py
+uncomment # d = database()
+uncomment # d.create_register_table()
+run just sql_handler.py to create a new table (register)
+comment both again
