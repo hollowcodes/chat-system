@@ -5,7 +5,7 @@ class database:
 
     def __init__(self):
 
-        self.connect = sqlite3.connect(r"C:\Users\wndws10tp.DESKTOP-TTE2SIQ\PycharmProjects\chat_system\server\sql_database\user_register.db")
+        self.connect = sqlite3.connect(r"\user_register.db")
         self.cursor = self.connect.cursor()
     
     def create_register_table(self):
